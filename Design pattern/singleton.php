@@ -3,7 +3,8 @@
 
 /**
  * Description : Singleton impelementation example
- *                  
+ *                
+ *        (should have these)  
  *              -private static  variable
  *              -private constructor
  *              -public static method return class singleton instance 
@@ -21,7 +22,7 @@ class Singleton
     public static function ShowInstance()
     {
 
-        if (self::$instance = -null) {
+        if (self::$instance = null) {
 
             self::$instance = new static();
         } else {
